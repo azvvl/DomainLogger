@@ -1,4 +1,4 @@
-if (window.location.href !== "https://freedns.afraid.org/domain/registry/") {
+if (window.location.pathname !== "/domain/registry/") {
     console.log("You are not on the correct page");
 } else {
     const domains = [];
